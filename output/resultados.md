@@ -1,84 +1,86 @@
-# Documento de Análises de Dados
+# Análise de Outliers do Valor Total
 
-## 1. Análise de Outliers em Valor Total por Categoria
+## Resumo da Metodologia
+Utilizamos estatísticas descritivas para identificar outliers nas compras de diferentes categorias de produtos. Investigamos as causas das variações significativas no valor total das compras usando uma análise box-plot.
 
-**Resumo da Metodologia:**
-Utilizamos a análise de boxplot para identificar valores outliers entre as categorias de produtos. Isso envolveu calcular os quartis para cada categoria e identificar quaisquer valores que estão fora do intervalo interquartil (IQR).
+## Resultado Encontrado
+Identificamos que a categoria "Moda" apresentou os maiores outliers no valor total das compras.
 
-**Resultado Encontrado:**
-Categorias como "Beleza" e "Casa" apresentam outliers significativos, o que sugere que existem alguns pedidos com valores extremamente altos.
+## Interpretação
+Os outliers nessas categorias podem ser causados por itens de luxo ou produtos premium, além de descontos sazonais que resultam em compras de grandes volumes.
 
-**Interpretação:**
-A presença de outliers nas categorias "Beleza" e "Casa" pode indicar vendas extraordinárias ou erros de contabilização. Ajustes em estratégias de preço ou investigação de casos específicos podem ser necessários.
-
-- **eixo_x**: `categoria`
-- **eixo_y**: `valor_total`
-- **tipo**: "Barra"
+- **eixo_x**: categoria
+- **eixo_y**: valor_total
+- **tipo**: Barra
 
 ---
 
-## 2. Avaliação de Desempenho de Canais de Origem
+# Análise do Status de Pagamento Pendente
 
-**Resumo da Metodologia:**
-Soma dos valores totais das vendas agrupados por canal de origem para cada categoria de produto.
+## Resumo da Metodologia
+Filtramos transações com status de pagamento "Pendente" e analisamos as características dessas transações, como categoria do produto, canal de origem e data da compra.
 
-**Resultado Encontrado:**
-O canal "Google Ads" gerou o maior valor de vendas em várias categorias, seguido por "Orgânico" e "Email".
+## Resultado Encontrado
+Transações pendentes são comumente associadas a compras de produtos eletrônicos e frequentemente realizadas via canais digitais, como Instagram e Google Ads.
 
-**Interpretação:**
-Os resultados sugerem que campanhas no Google Ads são altamente eficazes. Isso pode ser usado para alocar mais recursos para este canal.
+## Interpretação
+Podem haver questões técnicas na interface de pagamento desses canais, ou os produtos podem ter demanda alta levando a atrasos.
 
-- **eixo_x**: `canal_origem`
-- **eixo_y**: `valor_total`
-- **tipo**: "Barra"
-
----
-
-## 3. Análise de Correlação entre Quantidade e Valor Total
-
-**Resumo da Metodologia:**
-Cálculo do coeficiente de correlação de Pearson entre as colunas `quantidade` e `valor_total`.
-
-**Resultado Encontrado:**
-Uma correlação positiva significativa foi encontrada, indicando que um aumento na quantidade de produtos comprados tende a aumentar o valor total do pedido.
-
-**Interpretação:**
-Isso suporta uma abordagem que foca em promoções que incentivem compras em maiores quantidades, pois pode resultar em vendas totais maiores.
-
-- **eixo_x**: `quantidade`
-- **eixo_y**: `valor_total`
-- **tipo**: "Linha"
+- **eixo_x**: categoria
+- **eixo_y**: status_pagamento
+- **tipo**: Barra
 
 ---
 
-## 4. Análise Temporal de Compras Aprovadas
+# Eficácia dos Canais de Marketing
 
-**Resumo da Metodologia:**
-Distribuição das compras aprovadas ao longo do tempo para identificar tendências sazonais ou mensais. As datas de compras foram agrupadas por mês.
+## Resumo da Metodologia
+Analisamos a correlação entre canais de marketing e o valor total das vendas através de uma análise gráfica para identificar quais canais trazem mais vendas.
 
-**Resultado Encontrado:**
-Um aumento nos pedidos aprovados foi observado nos meses de março e abril.
+## Resultado Encontrado
+Canais como "Google Ads" e "Instagram" apresentaram uma correlação mais forte com altos valores de venda total.
 
-**Interpretação:**
-Podem existir sazonalidades ou campanhas específicas nestes meses que geram mais vendas aprovadas. Promoções podem ser planejadas para maximizar vendas durante esses períodos.
+## Interpretação
+Investimentos nesses canais podem resultar em maior receita, sendo eficazes para a promoção de produtos com maior valor agregado.
 
-- **eixo_x**: `data_compra`
-- **eixo_y**: `valor_total`
-- **tipo**: "Linha"
+- **eixo_x**: canal_origem
+- **eixo_y**: valor_total
+- **tipo**: Barra
 
 ---
 
-## 5. Segmentação de Clientes por Categorias de Produtos
+# Análise de Tendências Temporais nas Compras
 
-**Resumo da Metodologia:**
-Segmentação de clientes com base nas categorias de produtos comprados usando frequências de compra.
+## Resumo da Metodologia
+Utilizamos o método de série temporal para identificar padrões ou sazonalidades em compras mensais durante o ano de 2024.
 
-**Resultado Encontrado:**
-Clientes que compram "Eletrônicos" são mais propensos a fazer compras frequentemente, seguidos pelos que compram "Moda" e "Casa".
+## Resultado Encontrado
+Observamos um aumento significativo em vendas nos meses de janeiro e fevereiro.
 
-**Interpretação:**
-Esses segmentos podem ser alvos de campanhas de marketing e ofertas personalizadas para aumentar ainda mais as vendas nas respectivas categorias.
+## Interpretação
+O padrão pode estar relacionado a gastos de início de ano, como promoções de Ano Novo ou compras de recuperação de estoque após o período de festas.
 
-- **eixo_x**: `cliente_id`
-- **eixo_y**: `categoria`
-- **tipo**: "Pizza"
+- **eixo_x**: data_compra
+- **eixo_y**: quantidade
+- **tipo**: Linha
+
+---
+
+# Segmentação de Produtos e Clientes
+
+## Resumo da Metodologia
+Utilizamos técnicas de clusterização para agrupar clientes e produtos baseados nos seus padrões de compra, categorias e valores.
+
+## Resultado Encontrado
+Os clientes foram segmentados em grupos baseados na frequência de compra e nas categorias compradas, como produtos de Moda versus Eletrônicos.
+
+## Interpretação
+Essa segmentação permite ações de marketing mais direcionadas e personalização de ofertas com base nas preferências do cliente.
+
+- **eixo_x**: cliente_id
+- **eixo_y**: valor_total
+- **tipo**: Pizza
+
+---
+
+Cada análise foi conduzida para fornecer insights práticos que podem orientar decisões de negócios futuras.
