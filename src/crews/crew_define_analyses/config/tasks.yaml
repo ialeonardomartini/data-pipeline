@@ -1,0 +1,28 @@
+definir_analises:
+  description: >
+    Com base no relatório de EDA abaixo:
+
+    {eda_output}
+
+    Defina as 5 análises mais relevantes que devem ser realizadas no dataset. Para cada análise, indique:
+    1. Nome da análise
+    2. Objetivo
+    3. Pergunta a ser respondida
+    4. Tipo de abordagem (ex: estatística, visualização, comparação, etc.)
+
+    A resposta deve ser um JSON com a seguinte estrutura:
+
+    ```json
+    [
+      {
+        "nome": "...",
+        "objetivo": "...",
+        "pergunta": "...",
+        "tipo": "..."
+      },
+      ...
+    ]
+    ```
+  expected_output: >
+    Uma lista JSON com 5 análises bem descritas, seguindo a estrutura especificada.
+  agent: analise_estrategista

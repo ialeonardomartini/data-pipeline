@@ -1,0 +1,21 @@
+executar_analises:
+  description: >
+    Execute as análises abaixo, com base nas instruções fornecidas e utilizando o seguinte CSV:
+
+    {dataframe}
+
+    Análises a executar:
+    {analises}
+
+    Para cada análise, gere:
+    - Resumo da metodologia
+    - Resultado encontrado
+    - Interpretação
+    - eixo_x: coluna categórica para o eixo X
+    - eixo_y: coluna numérica para o eixo Y
+    - tipo: "Linha", "Barra" ou "Pizza"
+
+    Apresente tudo em Markdown com seções bem definidas para cada análise.
+  expected_output: >
+    Documento em Markdown com os resultados das 5 análises, explicados de forma clara.
+  agent: executor_analitico

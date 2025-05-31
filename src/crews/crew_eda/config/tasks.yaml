@@ -1,0 +1,16 @@
+realizar_eda:
+  description: >
+    Com base no seguinte conteúdo de um arquivo CSV:
+    
+    {dataframe}
+
+    Realize uma análise exploratória (EDA), abordando:
+    1. Visão geral das colunas e tipos de dados
+    2. Valores ausentes e outliers
+    3. Estatísticas descritivas
+    4. Padrões, correlações e insights iniciais
+
+    Sua resposta deve ser bem estruturada e escrita em Markdown, adequada para inclusão em relatórios técnicos.
+  expected_output: >
+    Um relatório EDA em Markdown bem estruturado com insights claros.
+  agent: eda_analyst

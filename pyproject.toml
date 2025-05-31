@@ -1,0 +1,20 @@
+[project]
+name = "eda-crewai-pipeline"
+version = "0.1.0"
+description = "Pipeline de EDA automatizado com múltiplas crews usando CrewAI Flows"
+authors = ["Seu Nome <email@example.com>"]
+readme = "README.md"
+requires-python = ">=3.9"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+crewai = ">=0.30.17"
+pydantic = "^2.6.4"
+python-dotenv = "^1.0.1"
+
+[tool.poetry.scripts]
+start = "run_pipeline:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

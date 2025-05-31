@@ -1,0 +1,501 @@
+cliente_id,pedido_id,produto,categoria,data_compra,valor_total,canal_origem,quantidade,status_pagamento
+C084,P1000,Fone Bluetooth,Eletrônicos,2024-05-15,215.03,Google Ads,1,Aprovado
+C027,P1001,Smartwatch,Eletrônicos,2024-02-01,257.83,Instagram,1,Aprovado
+C033,P1002,Liquidificador,Casa,2024-03-04,1208.96,Orgânico,2,Aprovado
+C083,P1003,Livro de Data Science,Livros,2024-05-10,874.3,Google Ads,1,Aprovado
+C035,P1004,Creme Facial,Beleza,2024-05-17,1926.78,Email,3,Aprovado
+C078,P1005,Tênis Esportivo,Moda,2024-01-07,1032.68,Orgânico,2,Aprovado
+C088,P1006,Shampoo Premium,Beleza,2024-02-28,132.84,Email,1,Pendente
+C035,P1007,Carregador Turbo,Eletrônicos,2024-01-25,2027.62,Google Ads,2,Aprovado
+C031,P1008,Livro de Data Science,Livros,2024-01-09,54.93,Instagram,1,Aprovado
+C060,P1009,Jaqueta Corta-Vento,Moda,2024-02-24,1594.77,Facebook Ads,3,Pendente
+C086,P1010,Livro de SQL,Livros,2024-01-14,1770.42,Email,2,Aprovado
+C093,P1011,Livro de Data Science,Livros,2024-03-30,2120.85,Facebook Ads,3,Aprovado
+C010,P1012,Tênis Esportivo,Moda,2024-03-25,1672.32,Email,3,Aprovado
+C086,P1013,Camiseta Básica,Moda,2024-04-10,3280.74,Facebook Ads,3,Aprovado
+C086,P1014,Jaqueta Corta-Vento,Moda,2024-05-21,1408.97,Google Ads,1,Aprovado
+C026,P1015,Fritadeira sem Óleo,Casa,2024-02-02,1876.78,Email,2,Aprovado
+C016,P1016,Camiseta Básica,Moda,2024-03-06,801.2,Facebook Ads,1,Aprovado
+C032,P1017,Fone Bluetooth,Eletrônicos,2024-02-25,2893.4,Google Ads,2,Pendente
+C033,P1018,Panela Elétrica,Casa,2024-05-18,331.06,Google Ads,2,Aprovado
+C001,P1019,Fritadeira sem Óleo,Casa,2024-05-24,396.06,Facebook Ads,2,Pendente
+C002,P1020,Jaqueta Corta-Vento,Moda,2024-03-03,849.93,Email,3,Aprovado
+C061,P1021,Mouse Sem Fio,Eletrônicos,2024-01-05,2061.96,Google Ads,3,Aprovado
+C063,P1022,Fone Bluetooth,Eletrônicos,2024-01-13,1477.7,Google Ads,1,Aprovado
+C071,P1023,Fone Bluetooth,Eletrônicos,2024-04-26,2224.5,Google Ads,3,Aprovado
+C003,P1024,Tênis Esportivo,Moda,2024-01-25,1210.59,Email,1,Aprovado
+C075,P1025,Fritadeira sem Óleo,Casa,2024-03-11,3150.0,Orgânico,3,Aprovado
+C016,P1026,Perfume,Beleza,2024-01-31,1123.12,Instagram,2,Pendente
+C097,P1027,Mochila Casual,Moda,2024-01-04,2207.16,Email,2,Cancelado
+C058,P1028,Carregador Turbo,Eletrônicos,2024-03-13,2418.78,Orgânico,2,Aprovado
+C078,P1029,Tênis Esportivo,Moda,2024-03-25,711.14,Facebook Ads,2,Aprovado
+C028,P1030,Livro de Python,Livros,2024-05-17,161.69,Orgânico,1,Aprovado
+C058,P1031,Calça Jeans,Moda,2024-03-25,406.86,Facebook Ads,3,Aprovado
+C043,P1032,Aspirador de Pó,Casa,2024-02-22,1491.48,Orgânico,3,Aprovado
+C013,P1033,Fone Bluetooth,Eletrônicos,2024-04-18,964.78,Orgânico,2,Pendente
+C015,P1034,Livro de SQL,Livros,2024-03-18,527.58,Orgânico,1,Aprovado
+C091,P1035,Tênis Esportivo,Moda,2024-03-03,1010.0,Instagram,2,Cancelado
+C029,P1036,Carregador Turbo,Eletrônicos,2024-03-22,657.28,Orgânico,1,Aprovado
+C091,P1037,Tênis Esportivo,Moda,2024-04-23,2070.38,Email,2,Aprovado
+C038,P1038,Livro de Data Science,Livros,2024-01-26,1134.49,Google Ads,1,Aprovado
+C046,P1039,Livro de Data Science,Livros,2024-03-15,306.63,Facebook Ads,3,Cancelado
+C089,P1040,Fone Bluetooth,Eletrônicos,2024-05-08,1372.31,Facebook Ads,1,Aprovado
+C058,P1041,Mouse Sem Fio,Eletrônicos,2024-01-20,1468.36,Email,2,Aprovado
+C077,P1042,Liquidificador,Casa,2024-03-17,1419.44,Orgânico,2,Cancelado
+C086,P1043,Mouse Sem Fio,Eletrônicos,2024-04-18,1200.03,Facebook Ads,1,Aprovado
+C087,P1044,Mouse Sem Fio,Eletrônicos,2024-01-30,2093.79,Orgânico,3,Aprovado
+C092,P1045,Liquidificador,Casa,2024-05-01,539.31,Orgânico,3,Aprovado
+C048,P1046,Livro de SQL,Livros,2024-03-28,4221.21,Email,3,Aprovado
+C013,P1047,Tênis Esportivo,Moda,2024-03-15,1205.86,Instagram,1,Aprovado
+C068,P1048,Mouse Sem Fio,Eletrônicos,2024-02-01,2613.3,Email,2,Aprovado
+C050,P1049,Mouse Sem Fio,Eletrônicos,2024-03-08,551.91,Email,1,Pendente
+C059,P1050,Smartwatch,Eletrônicos,2024-03-14,1089.12,Orgânico,1,Aprovado
+C041,P1051,Fone Bluetooth,Eletrônicos,2024-01-20,1992.84,Facebook Ads,3,Aprovado
+C087,P1052,Aspirador de Pó,Casa,2024-02-06,105.78,Orgânico,1,Aprovado
+C097,P1053,Camiseta Básica,Moda,2024-05-07,2465.06,Google Ads,2,Aprovado
+C015,P1054,Jaqueta Corta-Vento,Moda,2024-03-11,795.1,Orgânico,2,Aprovado
+C100,P1055,Mochila Casual,Moda,2024-04-16,155.58,Instagram,1,Aprovado
+C047,P1056,Livro de Python,Livros,2024-04-24,2649.64,Orgânico,2,Aprovado
+C052,P1057,Aspirador de Pó,Casa,2024-05-22,1579.94,Google Ads,2,Aprovado
+C045,P1058,Perfume,Beleza,2024-05-13,501.34,Google Ads,2,Aprovado
+C046,P1059,Camiseta Básica,Moda,2024-04-18,2622.16,Google Ads,2,Aprovado
+C049,P1060,Livro de Python,Livros,2024-02-17,280.58,Orgânico,2,Aprovado
+C023,P1061,Smartwatch,Eletrônicos,2024-01-13,3104.61,Orgânico,3,Aprovado
+C024,P1062,Calça Jeans,Moda,2024-01-21,711.2,Orgânico,1,Aprovado
+C034,P1063,Fritadeira sem Óleo,Casa,2024-02-25,232.76,Instagram,1,Aprovado
+C088,P1064,Creme Facial,Beleza,2024-04-19,1211.0,Facebook Ads,1,Aprovado
+C010,P1065,Shampoo Premium,Beleza,2024-04-12,2845.96,Instagram,2,Aprovado
+C086,P1066,Camiseta Básica,Moda,2024-01-02,1159.06,Instagram,2,Pendente
+C080,P1067,Mouse Sem Fio,Eletrônicos,2024-03-08,875.86,Email,1,Aprovado
+C086,P1068,Shampoo Premium,Beleza,2024-02-27,1151.4,Google Ads,1,Pendente
+C098,P1069,Mouse Sem Fio,Eletrônicos,2024-02-02,1421.33,Instagram,1,Aprovado
+C003,P1070,Mochila Casual,Moda,2024-01-20,733.26,Email,2,Aprovado
+C014,P1071,Teclado Gamer,Eletrônicos,2024-05-14,385.5,Google Ads,2,Aprovado
+C069,P1072,Fone Bluetooth,Eletrônicos,2024-04-18,319.58,Email,2,Aprovado
+C090,P1073,Teclado Gamer,Eletrônicos,2024-05-21,1707.92,Google Ads,2,Aprovado
+C010,P1074,Livro de Python,Livros,2024-04-11,2492.34,Orgânico,2,Aprovado
+C036,P1075,Perfume,Beleza,2024-03-29,1157.9,Google Ads,2,Aprovado
+C077,P1076,Camiseta Básica,Moda,2024-02-19,4442.4,Orgânico,3,Aprovado
+C020,P1077,Mouse Sem Fio,Eletrônicos,2024-01-12,2828.46,Email,3,Pendente
+C096,P1078,Mouse Sem Fio,Eletrônicos,2024-04-02,1492.68,Email,1,Aprovado
+C016,P1079,Fone Bluetooth,Eletrônicos,2024-02-02,137.47,Orgânico,1,Aprovado
+C067,P1080,Livro de Python,Livros,2024-02-04,393.96,Orgânico,1,Aprovado
+C075,P1081,Livro de SQL,Livros,2024-04-10,926.22,Instagram,3,Aprovado
+C049,P1082,Mouse Sem Fio,Eletrônicos,2024-01-07,1039.79,Facebook Ads,1,Aprovado
+C001,P1083,Mouse Sem Fio,Eletrônicos,2024-01-10,179.49,Google Ads,3,Aprovado
+C078,P1084,Fritadeira sem Óleo,Casa,2024-01-20,780.39,Instagram,3,Aprovado
+C031,P1085,Panela Elétrica,Casa,2024-03-13,671.58,Orgânico,3,Aprovado
+C091,P1086,Camiseta Básica,Moda,2024-01-06,2053.34,Facebook Ads,2,Aprovado
+C048,P1087,Carregador Turbo,Eletrônicos,2024-04-19,250.27,Google Ads,1,Aprovado
+C032,P1088,Fone Bluetooth,Eletrônicos,2024-03-19,905.42,Facebook Ads,2,Aprovado
+C056,P1089,Calça Jeans,Moda,2024-01-14,2771.8,Email,2,Pendente
+C052,P1090,Calça Jeans,Moda,2024-04-16,382.46,Email,2,Aprovado
+C100,P1091,Carregador Turbo,Eletrônicos,2024-01-30,1268.16,Email,1,Aprovado
+C085,P1092,Panela Elétrica,Casa,2024-01-08,869.3,Email,1,Aprovado
+C006,P1093,Tênis Esportivo,Moda,2024-03-26,4245.42,Email,3,Aprovado
+C099,P1094,Livro de SQL,Livros,2024-04-05,2412.81,Email,3,Aprovado
+C071,P1095,Livro de Data Science,Livros,2024-05-09,678.68,Orgânico,2,Aprovado
+C056,P1096,Fone Bluetooth,Eletrônicos,2024-05-05,2545.32,Orgânico,2,Aprovado
+C041,P1097,Smartwatch,Eletrônicos,2024-02-14,1875.99,Instagram,3,Aprovado
+C024,P1098,Panela Elétrica,Casa,2024-01-31,989.53,Email,1,Aprovado
+C096,P1099,Fone Bluetooth,Eletrônicos,2024-01-09,2729.6,Email,2,Pendente
+C072,P1100,Livro de Data Science,Livros,2024-02-07,1635.76,Orgânico,2,Pendente
+C047,P1101,Livro de Data Science,Livros,2024-05-16,2578.58,Orgânico,2,Aprovado
+C075,P1102,Creme Facial,Beleza,2024-01-07,1126.14,Instagram,1,Pendente
+C031,P1103,Tênis Esportivo,Moda,2024-04-13,94.57,Email,1,Aprovado
+C072,P1104,Perfume,Beleza,2024-04-03,2084.64,Google Ads,3,Aprovado
+C082,P1105,Jaqueta Corta-Vento,Moda,2024-01-10,143.5,Instagram,1,Aprovado
+C093,P1106,Liquidificador,Casa,2024-01-02,459.66,Facebook Ads,2,Aprovado
+C084,P1107,Aspirador de Pó,Casa,2024-04-15,1599.92,Google Ads,2,Aprovado
+C062,P1108,Jaqueta Corta-Vento,Moda,2024-02-26,376.26,Google Ads,3,Aprovado
+C096,P1109,Calça Jeans,Moda,2024-05-21,997.7,Instagram,1,Pendente
+C023,P1110,Fone Bluetooth,Eletrônicos,2024-01-11,569.7,Email,3,Aprovado
+C014,P1111,Creme Facial,Beleza,2024-02-13,1761.63,Facebook Ads,3,Aprovado
+C085,P1112,Calça Jeans,Moda,2024-01-26,423.36,Google Ads,3,Pendente
+C017,P1113,Livro de SQL,Livros,2024-04-23,729.51,Instagram,3,Aprovado
+C085,P1114,Creme Facial,Beleza,2024-05-20,4194.39,Google Ads,3,Cancelado
+C068,P1115,Camiseta Básica,Moda,2024-04-20,863.88,Instagram,1,Aprovado
+C010,P1116,Creme Facial,Beleza,2024-02-11,2930.4,Facebook Ads,3,Aprovado
+C050,P1117,Liquidificador,Casa,2024-01-16,638.7,Google Ads,1,Pendente
+C062,P1118,Tênis Esportivo,Moda,2024-01-05,1241.1,Facebook Ads,3,Aprovado
+C039,P1119,Creme Facial,Beleza,2024-01-13,2725.82,Google Ads,2,Aprovado
+C090,P1120,Creme Facial,Beleza,2024-03-27,1598.43,Email,3,Pendente
+C002,P1121,Shampoo Premium,Beleza,2024-05-06,915.6,Orgânico,1,Aprovado
+C047,P1122,Jaqueta Corta-Vento,Moda,2024-02-03,3308.13,Instagram,3,Aprovado
+C013,P1123,Jaqueta Corta-Vento,Moda,2024-04-18,715.18,Google Ads,1,Pendente
+C034,P1124,Carregador Turbo,Eletrônicos,2024-02-21,1723.2,Orgânico,2,Pendente
+C032,P1125,Creme Facial,Beleza,2024-05-17,521.71,Google Ads,1,Aprovado
+C011,P1126,Livro de Data Science,Livros,2024-04-17,1746.7,Google Ads,2,Aprovado
+C050,P1127,Smartwatch,Eletrônicos,2024-03-12,1076.46,Orgânico,3,Aprovado
+C058,P1128,Fritadeira sem Óleo,Casa,2024-03-27,2517.24,Instagram,2,Cancelado
+C029,P1129,Creme Facial,Beleza,2024-01-10,510.8,Instagram,2,Pendente
+C029,P1130,Fone Bluetooth,Eletrônicos,2024-01-18,645.53,Orgânico,1,Pendente
+C067,P1131,Mouse Sem Fio,Eletrônicos,2024-03-29,879.5,Facebook Ads,1,Aprovado
+C020,P1132,Smartwatch,Eletrônicos,2024-02-09,3836.64,Instagram,3,Aprovado
+C029,P1133,Aspirador de Pó,Casa,2024-03-08,1452.17,Google Ads,1,Aprovado
+C005,P1134,Teclado Gamer,Eletrônicos,2024-03-11,2007.24,Facebook Ads,3,Cancelado
+C078,P1135,Mochila Casual,Moda,2024-03-23,293.44,Orgânico,2,Aprovado
+C048,P1136,Fone Bluetooth,Eletrônicos,2024-05-21,825.14,Google Ads,1,Aprovado
+C035,P1137,Shampoo Premium,Beleza,2024-03-18,1397.02,Email,1,Aprovado
+C005,P1138,Camiseta Básica,Moda,2024-04-16,2161.96,Email,2,Aprovado
+C051,P1139,Tênis Esportivo,Moda,2024-03-06,1902.14,Facebook Ads,2,Pendente
+C051,P1140,Panela Elétrica,Casa,2024-03-07,2185.92,Instagram,3,Aprovado
+C070,P1141,Aspirador de Pó,Casa,2024-02-06,1222.29,Email,3,Aprovado
+C069,P1142,Fritadeira sem Óleo,Casa,2024-03-08,1348.0,Instagram,1,Aprovado
+C091,P1143,Livro de Data Science,Livros,2024-03-25,3781.35,Orgânico,3,Aprovado
+C010,P1144,Jaqueta Corta-Vento,Moda,2024-02-06,887.79,Facebook Ads,3,Aprovado
+C062,P1145,Smartwatch,Eletrônicos,2024-01-11,2919.46,Google Ads,2,Aprovado
+C027,P1146,Fritadeira sem Óleo,Casa,2024-05-05,2362.7,Google Ads,2,Aprovado
+C048,P1147,Shampoo Premium,Beleza,2024-04-13,1030.41,Email,1,Aprovado
+C010,P1148,Tênis Esportivo,Moda,2024-01-30,2496.81,Instagram,3,Aprovado
+C075,P1149,Perfume,Beleza,2024-03-12,2077.2,Facebook Ads,2,Aprovado
+C019,P1150,Fone Bluetooth,Eletrônicos,2024-03-15,252.7,Email,2,Aprovado
+C027,P1151,Jaqueta Corta-Vento,Moda,2024-02-03,1399.76,Instagram,2,Pendente
+C068,P1152,Aspirador de Pó,Casa,2024-03-14,2552.37,Facebook Ads,3,Aprovado
+C082,P1153,Tênis Esportivo,Moda,2024-05-02,261.03,Facebook Ads,3,Aprovado
+C049,P1154,Creme Facial,Beleza,2024-01-29,974.12,Orgânico,1,Aprovado
+C095,P1155,Fone Bluetooth,Eletrônicos,2024-02-17,417.53,Instagram,1,Aprovado
+C066,P1156,Panela Elétrica,Casa,2024-02-20,2237.76,Instagram,3,Aprovado
+C033,P1157,Tênis Esportivo,Moda,2024-04-28,2009.7,Orgânico,2,Aprovado
+C053,P1158,Teclado Gamer,Eletrônicos,2024-01-05,1304.44,Google Ads,1,Aprovado
+C069,P1159,Fone Bluetooth,Eletrônicos,2024-04-28,1840.41,Instagram,3,Aprovado
+C069,P1160,Fritadeira sem Óleo,Casa,2024-04-18,599.11,Orgânico,1,Aprovado
+C049,P1161,Livro de Data Science,Livros,2024-05-25,670.96,Google Ads,1,Aprovado
+C077,P1162,Fone Bluetooth,Eletrônicos,2024-03-14,742.84,Instagram,1,Aprovado
+C076,P1163,Tênis Esportivo,Moda,2024-04-03,1002.21,Facebook Ads,3,Pendente
+C042,P1164,Creme Facial,Beleza,2024-01-31,1731.7,Google Ads,2,Pendente
+C057,P1165,Smartwatch,Eletrônicos,2024-04-30,2762.31,Orgânico,3,Aprovado
+C098,P1166,Livro de Data Science,Livros,2024-01-13,2907.7,Facebook Ads,2,Aprovado
+C055,P1167,Teclado Gamer,Eletrônicos,2024-03-02,1267.32,Facebook Ads,3,Aprovado
+C037,P1168,Teclado Gamer,Eletrônicos,2024-02-05,1051.78,Google Ads,1,Pendente
+C062,P1169,Fone Bluetooth,Eletrônicos,2024-04-18,212.2,Email,1,Pendente
+C004,P1170,Perfume,Beleza,2024-05-18,1191.38,Email,1,Aprovado
+C009,P1171,Tênis Esportivo,Moda,2024-02-10,2508.18,Orgânico,2,Aprovado
+C054,P1172,Smartwatch,Eletrônicos,2024-05-10,1157.45,Google Ads,1,Pendente
+C058,P1173,Fone Bluetooth,Eletrônicos,2024-04-09,194.91,Email,3,Aprovado
+C009,P1174,Smartwatch,Eletrônicos,2024-02-16,1410.21,Facebook Ads,1,Aprovado
+C018,P1175,Calça Jeans,Moda,2024-02-28,688.26,Instagram,1,Aprovado
+C037,P1176,Mochila Casual,Moda,2024-02-04,603.37,Instagram,1,Aprovado
+C096,P1177,Teclado Gamer,Eletrônicos,2024-05-10,1823.58,Instagram,2,Aprovado
+C009,P1178,Livro de Data Science,Livros,2024-02-11,2089.82,Google Ads,2,Aprovado
+C001,P1179,Jaqueta Corta-Vento,Moda,2024-01-29,354.24,Facebook Ads,1,Aprovado
+C088,P1180,Camiseta Básica,Moda,2024-03-29,4011.06,Google Ads,3,Aprovado
+C067,P1181,Livro de Data Science,Livros,2024-02-05,206.91,Google Ads,1,Aprovado
+C049,P1182,Perfume,Beleza,2024-05-04,1146.75,Email,3,Aprovado
+C088,P1183,Livro de Python,Livros,2024-01-05,4064.79,Instagram,3,Aprovado
+C031,P1184,Shampoo Premium,Beleza,2024-05-02,528.69,Email,1,Aprovado
+C055,P1185,Fone Bluetooth,Eletrônicos,2024-01-22,2751.56,Email,2,Aprovado
+C086,P1186,Perfume,Beleza,2024-02-23,2271.78,Google Ads,2,Aprovado
+C043,P1187,Livro de Python,Livros,2024-05-13,1758.96,Facebook Ads,3,Aprovado
+C039,P1188,Fritadeira sem Óleo,Casa,2024-05-21,3062.19,Instagram,3,Pendente
+C058,P1189,Fritadeira sem Óleo,Casa,2024-03-19,382.92,Google Ads,3,Aprovado
+C067,P1190,Smartwatch,Eletrônicos,2024-02-25,2281.26,Instagram,2,Aprovado
+C027,P1191,Tênis Esportivo,Moda,2024-04-30,1199.79,Facebook Ads,3,Aprovado
+C077,P1192,Jaqueta Corta-Vento,Moda,2024-04-23,282.43,Instagram,1,Aprovado
+C076,P1193,Tênis Esportivo,Moda,2024-04-26,3028.65,Google Ads,3,Aprovado
+C050,P1194,Livro de SQL,Livros,2024-02-03,386.57,Google Ads,1,Aprovado
+C023,P1195,Livro de Data Science,Livros,2024-04-24,647.25,Orgânico,1,Aprovado
+C057,P1196,Calça Jeans,Moda,2024-04-06,1092.96,Email,2,Aprovado
+C019,P1197,Mouse Sem Fio,Eletrônicos,2024-01-31,4120.56,Email,3,Cancelado
+C010,P1198,Tênis Esportivo,Moda,2024-03-23,3349.74,Instagram,3,Aprovado
+C021,P1199,Livro de Data Science,Livros,2024-04-05,2932.98,Email,3,Aprovado
+C022,P1200,Livro de SQL,Livros,2024-05-13,1511.22,Email,2,Aprovado
+C091,P1201,Aspirador de Pó,Casa,2024-01-02,797.15,Google Ads,1,Aprovado
+C036,P1202,Fritadeira sem Óleo,Casa,2024-05-25,4405.83,Email,3,Cancelado
+C069,P1203,Livro de Data Science,Livros,2024-01-28,1299.1,Google Ads,2,Aprovado
+C020,P1204,Carregador Turbo,Eletrônicos,2024-03-09,2889.99,Email,3,Aprovado
+C007,P1205,Livro de Python,Livros,2024-05-20,342.22,Google Ads,2,Aprovado
+C075,P1206,Livro de Python,Livros,2024-03-30,118.78,Instagram,1,Aprovado
+C091,P1207,Carregador Turbo,Eletrônicos,2024-03-28,245.61,Facebook Ads,3,Aprovado
+C003,P1208,Fritadeira sem Óleo,Casa,2024-05-04,786.96,Orgânico,3,Aprovado
+C039,P1209,Camiseta Básica,Moda,2024-02-03,414.66,Instagram,1,Pendente
+C064,P1210,Aspirador de Pó,Casa,2024-01-18,149.78,Orgânico,2,Aprovado
+C040,P1211,Panela Elétrica,Casa,2024-02-23,2628.6,Facebook Ads,3,Aprovado
+C014,P1212,Calça Jeans,Moda,2024-02-13,1293.56,Email,1,Aprovado
+C065,P1213,Aspirador de Pó,Casa,2024-05-22,831.81,Instagram,1,Aprovado
+C005,P1214,Camiseta Básica,Moda,2024-02-29,3254.13,Instagram,3,Aprovado
+C060,P1215,Smartwatch,Eletrônicos,2024-04-16,709.68,Email,2,Aprovado
+C055,P1216,Camiseta Básica,Moda,2024-04-23,1754.04,Facebook Ads,3,Aprovado
+C002,P1217,Livro de Python,Livros,2024-01-22,2268.66,Instagram,3,Aprovado
+C081,P1218,Mouse Sem Fio,Eletrônicos,2024-01-09,2712.4,Orgânico,2,Aprovado
+C044,P1219,Jaqueta Corta-Vento,Moda,2024-05-05,2677.17,Orgânico,3,Aprovado
+C022,P1220,Aspirador de Pó,Casa,2024-04-23,2344.29,Facebook Ads,3,Aprovado
+C048,P1221,Livro de SQL,Livros,2024-01-13,1081.79,Instagram,1,Aprovado
+C086,P1222,Smartwatch,Eletrônicos,2024-03-19,730.3,Facebook Ads,2,Pendente
+C056,P1223,Teclado Gamer,Eletrônicos,2024-05-05,1591.95,Orgânico,3,Aprovado
+C080,P1224,Shampoo Premium,Beleza,2024-05-13,516.66,Facebook Ads,3,Pendente
+C041,P1225,Teclado Gamer,Eletrônicos,2024-02-10,1581.7,Email,2,Aprovado
+C037,P1226,Mochila Casual,Moda,2024-04-08,2216.16,Orgânico,2,Aprovado
+C039,P1227,Smartwatch,Eletrônicos,2024-01-11,1052.38,Google Ads,2,Aprovado
+C084,P1228,Fone Bluetooth,Eletrônicos,2024-05-17,121.54,Google Ads,2,Aprovado
+C077,P1229,Aspirador de Pó,Casa,2024-01-15,1012.2,Orgânico,2,Aprovado
+C041,P1230,Livro de SQL,Livros,2024-02-07,3186.78,Google Ads,3,Aprovado
+C026,P1231,Mochila Casual,Moda,2024-04-10,877.59,Email,1,Aprovado
+C021,P1232,Tênis Esportivo,Moda,2024-04-12,2449.48,Orgânico,2,Aprovado
+C049,P1233,Creme Facial,Beleza,2024-03-07,2369.94,Facebook Ads,2,Aprovado
+C023,P1234,Carregador Turbo,Eletrônicos,2024-04-06,2876.19,Orgânico,3,Aprovado
+C080,P1235,Perfume,Beleza,2024-03-07,675.57,Facebook Ads,1,Cancelado
+C083,P1236,Shampoo Premium,Beleza,2024-05-22,1156.54,Facebook Ads,1,Aprovado
+C005,P1237,Smartwatch,Eletrônicos,2024-04-04,1697.76,Facebook Ads,2,Aprovado
+C011,P1238,Livro de SQL,Livros,2024-03-12,1126.94,Facebook Ads,2,Aprovado
+C016,P1239,Carregador Turbo,Eletrônicos,2024-05-25,1186.08,Email,2,Pendente
+C031,P1240,Mochila Casual,Moda,2024-01-31,2823.06,Email,3,Aprovado
+C077,P1241,Livro de Python,Livros,2024-05-14,2956.52,Instagram,2,Pendente
+C029,P1242,Fone Bluetooth,Eletrônicos,2024-04-28,509.77,Instagram,1,Aprovado
+C089,P1243,Tênis Esportivo,Moda,2024-02-20,892.16,Instagram,2,Aprovado
+C098,P1244,Jaqueta Corta-Vento,Moda,2024-04-04,1399.68,Facebook Ads,2,Aprovado
+C063,P1245,Livro de Python,Livros,2024-04-11,1049.73,Orgânico,1,Aprovado
+C036,P1246,Camiseta Básica,Moda,2024-02-09,676.03,Orgânico,1,Aprovado
+C078,P1247,Teclado Gamer,Eletrônicos,2024-01-15,3666.0,Orgânico,3,Aprovado
+C001,P1248,Perfume,Beleza,2024-01-19,2854.26,Orgânico,3,Aprovado
+C055,P1249,Fone Bluetooth,Eletrônicos,2024-04-26,1123.28,Email,1,Pendente
+C094,P1250,Livro de Python,Livros,2024-01-19,2239.98,Google Ads,3,Aprovado
+C068,P1251,Shampoo Premium,Beleza,2024-02-16,2064.92,Facebook Ads,2,Aprovado
+C022,P1252,Tênis Esportivo,Moda,2024-03-19,1660.28,Google Ads,2,Aprovado
+C010,P1253,Fone Bluetooth,Eletrônicos,2024-04-06,581.94,Orgânico,2,Pendente
+C057,P1254,Camiseta Básica,Moda,2024-01-31,1132.35,Orgânico,1,Aprovado
+C063,P1255,Tênis Esportivo,Moda,2024-02-04,2378.66,Orgânico,2,Aprovado
+C054,P1256,Fone Bluetooth,Eletrônicos,2024-05-05,1100.65,Facebook Ads,1,Aprovado
+C021,P1257,Panela Elétrica,Casa,2024-04-02,959.3,Instagram,2,Aprovado
+C021,P1258,Aspirador de Pó,Casa,2024-03-12,679.87,Orgânico,1,Aprovado
+C057,P1259,Calça Jeans,Moda,2024-05-12,3765.3,Facebook Ads,3,Aprovado
+C083,P1260,Creme Facial,Beleza,2024-04-01,4061.64,Google Ads,3,Aprovado
+C020,P1261,Creme Facial,Beleza,2024-01-31,2777.13,Instagram,3,Aprovado
+C051,P1262,Liquidificador,Casa,2024-03-23,4187.4,Google Ads,3,Aprovado
+C098,P1263,Liquidificador,Casa,2024-04-29,1020.78,Instagram,2,Aprovado
+C087,P1264,Liquidificador,Casa,2024-04-17,964.95,Orgânico,3,Aprovado
+C055,P1265,Livro de Data Science,Livros,2024-01-17,4017.9,Google Ads,3,Pendente
+C033,P1266,Livro de SQL,Livros,2024-02-23,1432.41,Instagram,1,Pendente
+C048,P1267,Teclado Gamer,Eletrônicos,2024-04-04,1131.95,Facebook Ads,1,Aprovado
+C020,P1268,Liquidificador,Casa,2024-03-21,835.46,Orgânico,1,Aprovado
+C025,P1269,Creme Facial,Beleza,2024-05-09,3629.61,Orgânico,3,Aprovado
+C052,P1270,Carregador Turbo,Eletrônicos,2024-05-08,2281.26,Instagram,3,Aprovado
+C094,P1271,Calça Jeans,Moda,2024-04-04,3653.73,Facebook Ads,3,Aprovado
+C006,P1272,Panela Elétrica,Casa,2024-05-19,365.22,Orgânico,2,Aprovado
+C063,P1273,Mouse Sem Fio,Eletrônicos,2024-01-15,1303.02,Email,1,Aprovado
+C094,P1274,Panela Elétrica,Casa,2024-05-18,2695.95,Google Ads,3,Pendente
+C068,P1275,Livro de Python,Livros,2024-05-06,279.51,Google Ads,3,Aprovado
+C100,P1276,Livro de SQL,Livros,2024-04-09,728.36,Instagram,2,Aprovado
+C032,P1277,Teclado Gamer,Eletrônicos,2024-04-26,423.14,Orgânico,2,Aprovado
+C045,P1278,Mochila Casual,Moda,2024-04-13,4186.92,Orgânico,3,Pendente
+C009,P1279,Tênis Esportivo,Moda,2024-01-04,1377.75,Orgânico,3,Aprovado
+C082,P1280,Mochila Casual,Moda,2024-04-26,2226.72,Instagram,2,Aprovado
+C079,P1281,Jaqueta Corta-Vento,Moda,2024-05-10,807.24,Facebook Ads,1,Pendente
+C079,P1282,Smartwatch,Eletrônicos,2024-01-18,1826.12,Email,2,Cancelado
+C045,P1283,Livro de SQL,Livros,2024-02-25,1328.4,Google Ads,3,Aprovado
+C038,P1284,Mouse Sem Fio,Eletrônicos,2024-04-03,1098.36,Orgânico,1,Aprovado
+C059,P1285,Livro de Data Science,Livros,2024-04-04,1147.05,Instagram,1,Aprovado
+C057,P1286,Perfume,Beleza,2024-02-13,608.48,Instagram,1,Pendente
+C011,P1287,Fone Bluetooth,Eletrônicos,2024-01-27,2945.01,Orgânico,3,Aprovado
+C026,P1288,Tênis Esportivo,Moda,2024-04-12,729.8,Instagram,1,Aprovado
+C057,P1289,Camiseta Básica,Moda,2024-01-23,3123.66,Facebook Ads,3,Pendente
+C060,P1290,Fritadeira sem Óleo,Casa,2024-01-30,842.28,Orgânico,1,Aprovado
+C002,P1291,Panela Elétrica,Casa,2024-03-20,111.76,Instagram,2,Aprovado
+C065,P1292,Smartwatch,Eletrônicos,2024-02-16,1308.81,Email,1,Aprovado
+C041,P1293,Jaqueta Corta-Vento,Moda,2024-04-08,3023.64,Orgânico,3,Pendente
+C065,P1294,Calça Jeans,Moda,2024-04-29,2698.65,Facebook Ads,3,Cancelado
+C036,P1295,Creme Facial,Beleza,2024-01-10,1171.3,Facebook Ads,2,Aprovado
+C068,P1296,Liquidificador,Casa,2024-04-17,610.84,Email,1,Aprovado
+C051,P1297,Calça Jeans,Moda,2024-01-10,2481.45,Orgânico,3,Aprovado
+C071,P1298,Liquidificador,Casa,2024-03-16,1203.02,Facebook Ads,2,Aprovado
+C043,P1299,Aspirador de Pó,Casa,2024-01-01,1457.55,Facebook Ads,1,Aprovado
+C067,P1300,Teclado Gamer,Eletrônicos,2024-03-16,198.77,Instagram,1,Aprovado
+C020,P1301,Shampoo Premium,Beleza,2024-04-30,890.65,Orgânico,1,Aprovado
+C070,P1302,Livro de Data Science,Livros,2024-02-07,1505.25,Google Ads,3,Aprovado
+C006,P1303,Livro de Data Science,Livros,2024-03-15,3359.7,Orgânico,3,Pendente
+C073,P1304,Mouse Sem Fio,Eletrônicos,2024-02-23,555.18,Orgânico,3,Aprovado
+C084,P1305,Mochila Casual,Moda,2024-02-11,4481.34,Instagram,3,Aprovado
+C020,P1306,Camiseta Básica,Moda,2024-03-12,1200.52,Facebook Ads,2,Aprovado
+C045,P1307,Fone Bluetooth,Eletrônicos,2024-05-18,2282.02,Orgânico,2,Aprovado
+C045,P1308,Smartwatch,Eletrônicos,2024-01-18,3420.33,Instagram,3,Pendente
+C030,P1309,Shampoo Premium,Beleza,2024-03-30,1621.83,Orgânico,3,Aprovado
+C068,P1310,Smartwatch,Eletrônicos,2024-01-06,1295.86,Facebook Ads,1,Aprovado
+C099,P1311,Mochila Casual,Moda,2024-04-20,3157.92,Email,3,Cancelado
+C034,P1312,Livro de Data Science,Livros,2024-02-01,624.44,Facebook Ads,2,Aprovado
+C040,P1313,Livro de SQL,Livros,2024-02-21,358.89,Facebook Ads,1,Aprovado
+C083,P1314,Panela Elétrica,Casa,2024-05-22,2029.56,Google Ads,2,Aprovado
+C046,P1315,Jaqueta Corta-Vento,Moda,2024-02-16,431.08,Orgânico,1,Cancelado
+C021,P1316,Creme Facial,Beleza,2024-01-12,414.61,Google Ads,1,Aprovado
+C001,P1317,Smartwatch,Eletrônicos,2024-02-25,2829.12,Instagram,2,Aprovado
+C024,P1318,Calça Jeans,Moda,2024-01-07,554.13,Facebook Ads,3,Aprovado
+C087,P1319,Shampoo Premium,Beleza,2024-03-01,1466.78,Email,1,Aprovado
+C087,P1320,Jaqueta Corta-Vento,Moda,2024-03-08,1926.96,Facebook Ads,2,Aprovado
+C022,P1321,Creme Facial,Beleza,2024-02-05,1081.83,Instagram,1,Aprovado
+C052,P1322,Tênis Esportivo,Moda,2024-02-19,1842.84,Google Ads,2,Pendente
+C055,P1323,Liquidificador,Casa,2024-04-29,565.62,Facebook Ads,2,Pendente
+C013,P1324,Calça Jeans,Moda,2024-01-22,1442.01,Email,3,Aprovado
+C010,P1325,Creme Facial,Beleza,2024-03-27,1764.27,Email,3,Aprovado
+C082,P1326,Shampoo Premium,Beleza,2024-03-29,2502.44,Orgânico,2,Aprovado
+C036,P1327,Smartwatch,Eletrônicos,2024-03-21,124.7,Orgânico,2,Cancelado
+C097,P1328,Carregador Turbo,Eletrônicos,2024-02-04,933.68,Instagram,2,Aprovado
+C078,P1329,Smartwatch,Eletrônicos,2024-05-08,1633.06,Instagram,2,Aprovado
+C048,P1330,Teclado Gamer,Eletrônicos,2024-03-19,713.22,Facebook Ads,1,Aprovado
+C010,P1331,Livro de Python,Livros,2024-02-03,630.29,Facebook Ads,1,Pendente
+C087,P1332,Panela Elétrica,Casa,2024-04-28,579.13,Orgânico,1,Aprovado
+C031,P1333,Calça Jeans,Moda,2024-03-24,335.12,Facebook Ads,1,Aprovado
+C006,P1334,Aspirador de Pó,Casa,2024-01-12,1327.32,Facebook Ads,3,Aprovado
+C047,P1335,Teclado Gamer,Eletrônicos,2024-02-09,668.62,Facebook Ads,1,Aprovado
+C093,P1336,Fone Bluetooth,Eletrônicos,2024-04-30,3217.23,Email,3,Cancelado
+C063,P1337,Tênis Esportivo,Moda,2024-04-15,1488.18,Email,3,Aprovado
+C036,P1338,Tênis Esportivo,Moda,2024-02-16,3190.77,Email,3,Aprovado
+C016,P1339,Jaqueta Corta-Vento,Moda,2024-03-01,280.24,Facebook Ads,2,Pendente
+C093,P1340,Liquidificador,Casa,2024-02-04,1178.37,Instagram,1,Aprovado
+C014,P1341,Camiseta Básica,Moda,2024-01-26,434.5,Google Ads,1,Aprovado
+C078,P1342,Shampoo Premium,Beleza,2024-03-31,1038.78,Instagram,1,Aprovado
+C078,P1343,Teclado Gamer,Eletrônicos,2024-01-09,490.8,Instagram,2,Aprovado
+C005,P1344,Creme Facial,Beleza,2024-02-02,706.78,Google Ads,2,Aprovado
+C003,P1345,Livro de Python,Livros,2024-02-23,316.02,Google Ads,1,Aprovado
+C006,P1346,Livro de SQL,Livros,2024-02-19,2305.17,Instagram,3,Aprovado
+C076,P1347,Livro de Data Science,Livros,2024-05-22,1435.79,Instagram,1,Aprovado
+C041,P1348,Calça Jeans,Moda,2024-02-06,140.81,Email,1,Pendente
+C074,P1349,Teclado Gamer,Eletrônicos,2024-02-16,1024.35,Google Ads,1,Pendente
+C039,P1350,Camiseta Básica,Moda,2024-04-27,2342.31,Orgânico,3,Aprovado
+C003,P1351,Panela Elétrica,Casa,2024-03-03,2838.14,Facebook Ads,2,Aprovado
+C074,P1352,Perfume,Beleza,2024-03-06,457.42,Facebook Ads,2,Aprovado
+C004,P1353,Livro de Data Science,Livros,2024-01-18,2771.3,Facebook Ads,2,Aprovado
+C096,P1354,Calça Jeans,Moda,2024-03-23,4041.69,Facebook Ads,3,Aprovado
+C094,P1355,Mouse Sem Fio,Eletrônicos,2024-04-29,2356.42,Orgânico,2,Aprovado
+C082,P1356,Aspirador de Pó,Casa,2024-02-05,2395.08,Facebook Ads,2,Aprovado
+C011,P1357,Calça Jeans,Moda,2024-03-22,941.48,Orgânico,2,Aprovado
+C026,P1358,Teclado Gamer,Eletrônicos,2024-01-16,645.45,Instagram,3,Aprovado
+C054,P1359,Shampoo Premium,Beleza,2024-03-24,703.49,Instagram,1,Aprovado
+C052,P1360,Fone Bluetooth,Eletrônicos,2024-02-29,727.15,Orgânico,1,Aprovado
+C083,P1361,Smartwatch,Eletrônicos,2024-05-04,613.47,Google Ads,1,Aprovado
+C051,P1362,Livro de Python,Livros,2024-04-11,3121.65,Orgânico,3,Aprovado
+C005,P1363,Panela Elétrica,Casa,2024-04-25,525.66,Google Ads,1,Aprovado
+C072,P1364,Tênis Esportivo,Moda,2024-04-20,698.14,Google Ads,2,Aprovado
+C097,P1365,Panela Elétrica,Casa,2024-02-19,395.31,Instagram,3,Aprovado
+C026,P1366,Shampoo Premium,Beleza,2024-03-29,1383.38,Facebook Ads,1,Aprovado
+C054,P1367,Fone Bluetooth,Eletrônicos,2024-01-13,732.92,Google Ads,2,Pendente
+C032,P1368,Fone Bluetooth,Eletrônicos,2024-05-13,1065.28,Facebook Ads,1,Aprovado
+C075,P1369,Calça Jeans,Moda,2024-02-27,3341.55,Instagram,3,Cancelado
+C040,P1370,Perfume,Beleza,2024-01-09,669.2,Facebook Ads,2,Pendente
+C041,P1371,Liquidificador,Casa,2024-04-07,2705.58,Orgânico,2,Aprovado
+C063,P1372,Shampoo Premium,Beleza,2024-04-04,714.06,Email,2,Pendente
+C084,P1373,Teclado Gamer,Eletrônicos,2024-01-27,2043.94,Instagram,2,Aprovado
+C022,P1374,Fritadeira sem Óleo,Casa,2024-04-26,1093.95,Instagram,3,Aprovado
+C048,P1375,Livro de Python,Livros,2024-05-06,1119.95,Facebook Ads,1,Aprovado
+C059,P1376,Livro de Python,Livros,2024-02-29,621.39,Orgânico,1,Pendente
+C008,P1377,Mouse Sem Fio,Eletrônicos,2024-01-19,2900.26,Orgânico,2,Aprovado
+C027,P1378,Liquidificador,Casa,2024-01-23,685.74,Google Ads,2,Aprovado
+C016,P1379,Mouse Sem Fio,Eletrônicos,2024-05-01,994.62,Orgânico,1,Aprovado
+C048,P1380,Camiseta Básica,Moda,2024-05-17,1291.1,Orgânico,1,Aprovado
+C080,P1381,Livro de Data Science,Livros,2024-02-18,1163.51,Orgânico,1,Aprovado
+C070,P1382,Smartwatch,Eletrônicos,2024-01-20,3289.47,Orgânico,3,Aprovado
+C044,P1383,Shampoo Premium,Beleza,2024-02-01,2307.84,Email,3,Aprovado
+C045,P1384,Creme Facial,Beleza,2024-03-08,478.26,Email,2,Aprovado
+C054,P1385,Shampoo Premium,Beleza,2024-01-16,1413.68,Instagram,1,Aprovado
+C073,P1386,Camiseta Básica,Moda,2024-03-04,2706.96,Orgânico,2,Aprovado
+C045,P1387,Jaqueta Corta-Vento,Moda,2024-05-17,2092.6,Email,2,Aprovado
+C074,P1388,Fritadeira sem Óleo,Casa,2024-02-18,1196.63,Instagram,1,Pendente
+C049,P1389,Liquidificador,Casa,2024-05-15,1855.4,Google Ads,2,Aprovado
+C015,P1390,Fritadeira sem Óleo,Casa,2024-05-11,2363.48,Google Ads,2,Aprovado
+C057,P1391,Perfume,Beleza,2024-03-04,2065.6,Facebook Ads,2,Aprovado
+C043,P1392,Camiseta Básica,Moda,2024-05-05,463.97,Facebook Ads,1,Pendente
+C005,P1393,Livro de SQL,Livros,2024-01-28,1038.39,Instagram,1,Aprovado
+C082,P1394,Tênis Esportivo,Moda,2024-02-12,1261.56,Google Ads,3,Aprovado
+C090,P1395,Aspirador de Pó,Casa,2024-04-05,752.67,Orgânico,1,Aprovado
+C079,P1396,Perfume,Beleza,2024-03-29,374.02,Email,2,Aprovado
+C087,P1397,Panela Elétrica,Casa,2024-05-04,1119.14,Instagram,2,Aprovado
+C023,P1398,Livro de SQL,Livros,2024-05-18,2800.18,Email,2,Aprovado
+C080,P1399,Smartwatch,Eletrônicos,2024-04-23,360.0,Orgânico,3,Aprovado
+C005,P1400,Livro de Python,Livros,2024-03-02,1423.16,Google Ads,1,Aprovado
+C044,P1401,Liquidificador,Casa,2024-01-20,65.75,Google Ads,1,Aprovado
+C035,P1402,Mouse Sem Fio,Eletrônicos,2024-05-23,699.24,Facebook Ads,2,Aprovado
+C040,P1403,Livro de Python,Livros,2024-04-13,574.96,Facebook Ads,2,Aprovado
+C011,P1404,Teclado Gamer,Eletrônicos,2024-02-16,891.04,Facebook Ads,1,Aprovado
+C026,P1405,Livro de Python,Livros,2024-03-24,122.64,Instagram,1,Aprovado
+C011,P1406,Carregador Turbo,Eletrônicos,2024-02-15,1292.91,Google Ads,1,Aprovado
+C047,P1407,Camiseta Básica,Moda,2024-05-02,1475.37,Email,1,Aprovado
+C002,P1408,Livro de Data Science,Livros,2024-05-09,528.42,Google Ads,3,Aprovado
+C056,P1409,Tênis Esportivo,Moda,2024-02-20,468.4,Orgânico,2,Aprovado
+C059,P1410,Livro de SQL,Livros,2024-03-15,1370.19,Email,1,Aprovado
+C091,P1411,Panela Elétrica,Casa,2024-05-23,1236.45,Instagram,3,Cancelado
+C061,P1412,Camiseta Básica,Moda,2024-04-03,1186.2,Instagram,2,Aprovado
+C058,P1413,Perfume,Beleza,2024-02-06,1045.3,Orgânico,1,Aprovado
+C013,P1414,Fone Bluetooth,Eletrônicos,2024-02-04,4474.8,Instagram,3,Aprovado
+C025,P1415,Teclado Gamer,Eletrônicos,2024-02-09,2526.39,Instagram,3,Pendente
+C085,P1416,Smartwatch,Eletrônicos,2024-04-09,98.93,Instagram,1,Pendente
+C067,P1417,Fritadeira sem Óleo,Casa,2024-03-31,722.5,Email,2,Aprovado
+C053,P1418,Jaqueta Corta-Vento,Moda,2024-05-05,57.29,Google Ads,1,Aprovado
+C020,P1419,Jaqueta Corta-Vento,Moda,2024-02-18,1400.48,Facebook Ads,2,Aprovado
+C077,P1420,Teclado Gamer,Eletrônicos,2024-04-15,2471.48,Facebook Ads,2,Aprovado
+C047,P1421,Fone Bluetooth,Eletrônicos,2024-04-02,796.38,Google Ads,3,Aprovado
+C061,P1422,Livro de SQL,Livros,2024-01-07,2528.16,Google Ads,2,Aprovado
+C100,P1423,Panela Elétrica,Casa,2024-04-19,652.9,Orgânico,2,Aprovado
+C010,P1424,Calça Jeans,Moda,2024-04-14,699.61,Orgânico,1,Aprovado
+C032,P1425,Fritadeira sem Óleo,Casa,2024-05-23,3535.89,Email,3,Aprovado
+C044,P1426,Smartwatch,Eletrônicos,2024-03-24,1101.72,Email,3,Aprovado
+C070,P1427,Shampoo Premium,Beleza,2024-05-18,386.58,Facebook Ads,1,Aprovado
+C099,P1428,Livro de SQL,Livros,2024-02-07,958.65,Orgânico,3,Aprovado
+C005,P1429,Teclado Gamer,Eletrônicos,2024-01-01,2599.62,Facebook Ads,3,Aprovado
+C058,P1430,Camiseta Básica,Moda,2024-04-17,2912.58,Facebook Ads,2,Aprovado
+C066,P1431,Calça Jeans,Moda,2024-01-19,2793.87,Orgânico,3,Aprovado
+C086,P1432,Shampoo Premium,Beleza,2024-04-25,2415.86,Instagram,2,Pendente
+C030,P1433,Livro de Python,Livros,2024-02-11,4325.73,Instagram,3,Aprovado
+C083,P1434,Panela Elétrica,Casa,2024-01-12,3983.94,Email,3,Aprovado
+C050,P1435,Liquidificador,Casa,2024-05-12,738.61,Instagram,1,Aprovado
+C011,P1436,Tênis Esportivo,Moda,2024-02-26,557.67,Orgânico,1,Aprovado
+C100,P1437,Fritadeira sem Óleo,Casa,2024-04-20,110.6,Email,2,Aprovado
+C018,P1438,Panela Elétrica,Casa,2024-03-31,717.58,Instagram,2,Cancelado
+C041,P1439,Fritadeira sem Óleo,Casa,2024-02-18,248.49,Email,1,Aprovado
+C075,P1440,Mochila Casual,Moda,2024-04-06,493.76,Email,2,Aprovado
+C044,P1441,Creme Facial,Beleza,2024-03-26,3943.74,Instagram,3,Aprovado
+C078,P1442,Shampoo Premium,Beleza,2024-03-21,2196.74,Google Ads,2,Pendente
+C083,P1443,Carregador Turbo,Eletrônicos,2024-03-12,458.16,Facebook Ads,2,Aprovado
+C045,P1444,Liquidificador,Casa,2024-01-11,1606.86,Google Ads,2,Aprovado
+C085,P1445,Perfume,Beleza,2024-02-17,624.54,Instagram,1,Aprovado
+C086,P1446,Carregador Turbo,Eletrônicos,2024-03-01,2208.74,Orgânico,2,Pendente
+C043,P1447,Liquidificador,Casa,2024-02-01,1917.56,Instagram,2,Aprovado
+C100,P1448,Fritadeira sem Óleo,Casa,2024-01-09,1733.04,Email,2,Aprovado
+C052,P1449,Livro de Python,Livros,2024-05-15,2567.86,Email,2,Aprovado
+C097,P1450,Livro de Data Science,Livros,2024-02-10,1725.18,Instagram,3,Aprovado
+C076,P1451,Teclado Gamer,Eletrônicos,2024-01-06,458.79,Email,3,Aprovado
+C097,P1452,Camiseta Básica,Moda,2024-03-10,891.78,Orgânico,1,Pendente
+C076,P1453,Calça Jeans,Moda,2024-02-17,582.94,Facebook Ads,1,Aprovado
+C046,P1454,Mochila Casual,Moda,2024-01-12,639.12,Email,2,Aprovado
+C060,P1455,Mochila Casual,Moda,2024-01-09,1229.48,Instagram,2,Aprovado
+C084,P1456,Fritadeira sem Óleo,Casa,2024-03-21,1053.83,Orgânico,1,Aprovado
+C026,P1457,Panela Elétrica,Casa,2024-05-18,809.49,Google Ads,3,Aprovado
+C048,P1458,Livro de Data Science,Livros,2024-04-19,2161.16,Facebook Ads,2,Aprovado
+C013,P1459,Livro de Python,Livros,2024-05-25,1611.87,Google Ads,3,Pendente
+C012,P1460,Teclado Gamer,Eletrônicos,2024-05-01,2477.49,Instagram,3,Aprovado
+C007,P1461,Tênis Esportivo,Moda,2024-04-17,3229.77,Orgânico,3,Pendente
+C054,P1462,Carregador Turbo,Eletrônicos,2024-03-31,250.92,Google Ads,2,Aprovado
+C064,P1463,Camiseta Básica,Moda,2024-05-15,231.99,Email,3,Aprovado
+C036,P1464,Carregador Turbo,Eletrônicos,2024-05-23,1854.81,Orgânico,3,Aprovado
+C001,P1465,Mochila Casual,Moda,2024-03-29,648.6,Orgânico,3,Aprovado
+C086,P1466,Livro de SQL,Livros,2024-05-21,372.18,Google Ads,2,Pendente
+C063,P1467,Carregador Turbo,Eletrônicos,2024-05-05,606.9,Email,1,Aprovado
+C016,P1468,Aspirador de Pó,Casa,2024-04-08,618.36,Instagram,1,Aprovado
+C056,P1469,Calça Jeans,Moda,2024-01-25,590.78,Email,2,Aprovado
+C066,P1470,Shampoo Premium,Beleza,2024-01-14,1096.42,Orgânico,1,Pendente
+C070,P1471,Tênis Esportivo,Moda,2024-04-20,1039.27,Google Ads,1,Pendente
+C044,P1472,Smartwatch,Eletrônicos,2024-03-30,424.15,Email,1,Cancelado
+C059,P1473,Mouse Sem Fio,Eletrônicos,2024-01-19,1507.44,Facebook Ads,2,Aprovado
+C003,P1474,Camiseta Básica,Moda,2024-01-08,488.08,Email,1,Aprovado
+C046,P1475,Tênis Esportivo,Moda,2024-01-29,935.34,Instagram,2,Aprovado
+C045,P1476,Smartwatch,Eletrônicos,2024-05-02,1790.1,Email,3,Pendente
+C098,P1477,Mouse Sem Fio,Eletrônicos,2024-04-20,1746.27,Email,3,Pendente
+C052,P1478,Aspirador de Pó,Casa,2024-01-08,259.4,Instagram,1,Aprovado
+C026,P1479,Aspirador de Pó,Casa,2024-01-29,1306.47,Facebook Ads,1,Aprovado
+C039,P1480,Fone Bluetooth,Eletrônicos,2024-02-09,1652.48,Email,2,Pendente
+C070,P1481,Jaqueta Corta-Vento,Moda,2024-02-06,1826.2,Facebook Ads,2,Aprovado
+C082,P1482,Panela Elétrica,Casa,2024-04-10,1579.08,Facebook Ads,2,Aprovado
+C012,P1483,Fone Bluetooth,Eletrônicos,2024-05-11,872.94,Facebook Ads,3,Aprovado
+C090,P1484,Perfume,Beleza,2024-03-07,570.18,Orgânico,1,Aprovado
+C002,P1485,Fone Bluetooth,Eletrônicos,2024-02-26,4335.33,Facebook Ads,3,Aprovado
+C087,P1486,Fritadeira sem Óleo,Casa,2024-01-29,575.0,Instagram,1,Aprovado
+C037,P1487,Fritadeira sem Óleo,Casa,2024-02-06,2952.08,Google Ads,2,Aprovado
+C051,P1488,Liquidificador,Casa,2024-02-04,1545.84,Email,2,Aprovado
+C001,P1489,Smartwatch,Eletrônicos,2024-03-16,1542.02,Orgânico,2,Aprovado
+C050,P1490,Jaqueta Corta-Vento,Moda,2024-03-26,2218.64,Orgânico,2,Aprovado
+C086,P1491,Perfume,Beleza,2024-04-06,619.78,Facebook Ads,2,Pendente
+C100,P1492,Carregador Turbo,Eletrônicos,2024-03-31,217.65,Instagram,3,Aprovado
+C020,P1493,Perfume,Beleza,2024-01-03,955.28,Orgânico,1,Aprovado
+C032,P1494,Calça Jeans,Moda,2024-04-16,1130.6,Instagram,1,Aprovado
+C084,P1495,Aspirador de Pó,Casa,2024-04-07,476.65,Email,1,Aprovado
+C051,P1496,Tênis Esportivo,Moda,2024-01-03,3244.74,Instagram,3,Aprovado
+C069,P1497,Shampoo Premium,Beleza,2024-02-22,2814.28,Instagram,2,Aprovado
+C053,P1498,Calça Jeans,Moda,2024-01-01,1779.36,Email,3,Pendente
+C055,P1499,Livro de Data Science,Livros,2024-01-07,899.5,Google Ads,1,Aprovado
