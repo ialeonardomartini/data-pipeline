@@ -4,11 +4,11 @@ definir_analises:
 
     {eda_output}
 
-    Defina as 5 análises mais relevantes que devem ser realizadas no dataset. Para cada análise, indique:
+    Defina as top 5 análises mais relevantes que devem ser realizadas no dataset. Para cada análise, indique:
     1. Nome da análise
     2. Objetivo
     3. Pergunta a ser respondida
-    4. Tipo de abordagem (ex: estatística, visualização, comparação, etc.)
+    4. Tipo de abordagem (visualização)
 
     A resposta deve ser um JSON com a seguinte estrutura:
 

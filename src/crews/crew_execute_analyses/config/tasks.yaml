@@ -8,6 +8,7 @@ executar_analises:
     {analises}
 
     Para cada análise, gere:
+    - titulos
     - Resumo da metodologia
     - Resultado encontrado
     - Interpretação
@@ -15,7 +16,22 @@ executar_analises:
     - eixo_y: coluna numérica para o eixo Y
     - tipo: "Linha", "Barra" ou "Pizza"
 
-    Apresente tudo em Markdown com seções bem definidas para cada análise.
+    A resposta deve ser um JSON com a seguinte estrutura:
+
+    ```json
+    [
+      {
+        "titulo": "...",
+        "metodologia": "...",
+        "resultado": "...",
+        "interpretacao": "...",
+        "eixo_x": "...",
+        "eixo_y": "...",
+        "tipo": "..."
+      },
+      ...
+    ]
+    ```
   expected_output: >
-    Documento em Markdown com os resultados das 5 análises, explicados de forma clara.
+    Uma lista JSON com 5 os resultados das 5 análises explicados de forma clara.
   agent: executor_analitico

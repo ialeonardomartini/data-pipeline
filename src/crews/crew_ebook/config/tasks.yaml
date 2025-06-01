@@ -1,0 +1,52 @@
+create_copy_intro:
+  description: >
+    Escreva uma introdução objetiva para o e-book, com base nos seguintes dados:
+    - Eda:
+      {eda}
+    - Resultados:
+      {resultados}
+    A introdução deve conter no máximo 3 parágrafos curtos e explicar, de forma clara, o objetivo e o que será explorado a seguir.
+    Evite textos genéricos ou longos. Prepare o leitor para acompanhar gráficos e interpretações nos próximos capítulos.
+  expected_output: Texto markdown curto para a seção Introdução
+  agent: copywriter
+
+create_copy_eda:
+  description: >
+    Baseando-se neste conteúdo da EDA:
+    {eda}
+
+    Escreva uma descrição curta com os principais achados. 
+    Destaque padrões, outliers ou tendências, de forma a facilitar a leitura de gráficos.
+    Use frases curtas. Limite o texto a no máximo 2 parágrafos.
+  expected_output: Texto markdown conciso para a seção Análise Exploratória
+  agent: copywriter
+
+create_copy_insights:
+  description: >
+    Com base nos seguintes insights:
+    {resultados}
+
+    Crie descrições para acompanhar gráficos, explicando o que cada visualização representa.
+    Use linguagem clara e evite repetições. Foque em gerar um texto interpretativo com até 3 frases por insight.
+    
+    A resposta deve ser um JSON com a seguinte estrutura:
+
+    ```json
+    [
+      {
+        "insight": "..."
+      },
+      ...
+    ]
+    ```
+  expected_output: Uma lista JSON com 5 textos explicativos para cada insight visualizado no e-book
+  agent: copywriter
+
+create_copy_conclusao:
+  description: >
+    Escreva uma conclusão breve para o e-book.
+
+    Resuma os aprendizados em até 2 parágrafos. Se possível, indique recomendações com base nos dados analisados.
+    Mantenha um tom analítico, objetivo e sem repetições.
+  expected_output: Texto markdown final para a seção Conclusão
+  agent: copywriter
