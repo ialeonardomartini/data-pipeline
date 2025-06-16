@@ -2,15 +2,18 @@
 name = "eda-crewai-pipeline"
 version = "0.1.0"
 description = "Pipeline de EDA automatizado com múltiplas crews usando CrewAI Flows"
-authors = ["Seu Nome <email@example.com>"]
+authors = [
+    {name = "Seu Nome", email = "email@example.com"}
+]
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.10,<3.13"
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = ">=3.10,<3.13"
 crewai = ">=0.30.17"
 pydantic = "^2.6.4"
 python-dotenv = "^1.0.1"
+pyyaml = "^6.0.1"
 
 [tool.poetry.scripts]
 start = "run_pipeline:main"

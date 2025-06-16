@@ -1,4 +1,6 @@
-#!/Users/leonardomartini/Documents/github/data-pipeline/.venv/bin/python
+#!/bin/sh
+'''exec' "/Users/leonardomartini/Documents/github/data-pipeline (nao ta no git)/.venv/bin/python" "$0" "$@"
+' '''
 # -*- coding: utf-8 -*-
 import re
 import sys

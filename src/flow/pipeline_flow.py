@@ -1,6 +1,6 @@
 import os
 import json
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Union
 from pydantic import BaseModel
 from main import safe_json_from_markdown_block
 from crewai.flow.flow import Flow, start, listen
@@ -50,16 +50,15 @@ class AnalisePipelineFlow(Flow[PipelineState]):
         print("🔎 Resultado.raw do agente:")
         print(resultado.raw)
 
- #       raw_clean = resultado.raw.strip()
- #       if raw_clean.startswith("```json"):
- #           raw_clean = raw_clean.replace("```json", "").strip()
- #       if raw_clean.endswith("```"):
- #           raw_clean = raw_clean[:-3].strip()
-
         try:
-            self.state.analises = safe_json_from_markdown_block(resultado.raw)
+            json_data = safe_json_from_markdown_block(resultado.raw)
+            if isinstance(json_data, list):
+                self.state.analises = json_data
+            else:
+                print("❌ Formato JSON inválido: esperava uma lista")
+                self.state.analises = []
         except json.JSONDecodeError:
-            print("❌ Erro ao decodificar JSON \n ❌ Erro ao decodificar JSON \n ❌ Erro ao decodificar JSON")
+            print("❌ Erro ao decodificar JSON")
             self.state.analises = []
 
         with open("output/analises.json", "w") as f:
@@ -141,9 +140,7 @@ class CreateEbookText(Flow[PipelineState]):
         resultados = self.state.resultados
         print("🔍 Gerando seção de insights...")
         resultado = EbookInsightsCrew().crew().kickoff(inputs={"resultados": resultados})
-        self.state.ebook_insights = resultado.raw
-
-
+        
         raw_clean = resultado.raw.strip()
         if raw_clean.startswith("```json"):
             raw_clean = raw_clean.replace("```json", "").strip()
@@ -151,7 +148,12 @@ class CreateEbookText(Flow[PipelineState]):
             raw_clean = raw_clean[:-3].strip()
 
         try:
-            self.state.ebook_insights = json.loads(raw_clean)
+            json_data = json.loads(raw_clean)
+            if isinstance(json_data, list):
+                self.state.ebook_insights = json_data
+            else:
+                print("❌ Formato JSON inválido: esperava uma lista")
+                self.state.ebook_insights = []
         except json.JSONDecodeError:
             print("❌ Erro ao decodificar JSON:")
             print(raw_clean)

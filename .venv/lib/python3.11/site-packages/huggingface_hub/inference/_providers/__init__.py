@@ -1,5 +1,9 @@
 from typing import Dict, Literal, Optional, Union
 
+from huggingface_hub.inference._providers.featherless_ai import (
+    FeatherlessConversationalTask,
+    FeatherlessTextGenerationTask,
+)
 from huggingface_hub.utils import logging
 
 from ._common import TaskProviderHelper, _fetch_inference_provider_mapping
@@ -13,6 +17,7 @@ from .fal_ai import (
     FalAITextToVideoTask,
 )
 from .fireworks_ai import FireworksAIConversationalTask
+from .groq import GroqConversationalTask
 from .hf_inference import (
     HFInferenceBinaryInputTask,
     HFInferenceConversational,
@@ -42,7 +47,9 @@ PROVIDER_T = Literal[
     "cerebras",
     "cohere",
     "fal-ai",
+    "featherless-ai",
     "fireworks-ai",
+    "groq",
     "hf-inference",
     "hyperbolic",
     "nebius",
@@ -72,8 +79,15 @@ PROVIDERS: Dict[PROVIDER_T, Dict[str, TaskProviderHelper]] = {
         "text-to-speech": FalAITextToSpeechTask(),
         "text-to-video": FalAITextToVideoTask(),
     },
+    "featherless-ai": {
+        "conversational": FeatherlessConversationalTask(),
+        "text-generation": FeatherlessTextGenerationTask(),
+    },
     "fireworks-ai": {
         "conversational": FireworksAIConversationalTask(),
+    },
+    "groq": {
+        "conversational": GroqConversationalTask(),
     },
     "hf-inference": {
         "text-to-image": HFInferenceTask("text-to-image"),
@@ -174,7 +188,7 @@ def get_provider_helper(
         if model is None:
             raise ValueError("Specifying a model is required when provider is 'auto'")
         provider_mapping = _fetch_inference_provider_mapping(model)
-        provider = next(iter(provider_mapping))
+        provider = next(iter(provider_mapping)).provider
 
     provider_tasks = PROVIDERS.get(provider)  # type: ignore
     if provider_tasks is None:

@@ -6,6 +6,7 @@ import sys
 import uuid
 import warnings
 from collections import deque
+from collections.abc import Mapping, Sequence
 from types import TracebackType
 from typing import (
     TYPE_CHECKING,
@@ -14,9 +15,7 @@ from typing import (
     Dict,
     Iterator,
     List,
-    Mapping,
     Optional,
-    Sequence,
     Tuple,
     Type,
     Union,

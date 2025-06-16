@@ -1,4 +1,4 @@
-#!/Users/leonardomartini/Documents/github/data-pipeline/.venv/bin/python
+#!/Users/leonardomartini/Documents/github/data-pipeline (nao ta no git)/.venv/bin/python
 """A command line tool for extracting text and images from PDF and
 output it to plain text, html, xml or tags.
 """

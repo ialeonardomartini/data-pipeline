@@ -32,7 +32,6 @@ class DjangoIntegration:
     identifier = "django"
 
     def __init__(self, capture_exception_fn=None):
-
         if DJANGO_VERSION < (4, 2):
             raise IntegrationEnablingError("Django 4.2 or newer is required.")
 
@@ -60,7 +59,6 @@ class DjangoIntegration:
 
 
 class DjangoRequestExtractor:
-
     def __init__(self, request):
         # type: (Any) -> None
         self.request = request
@@ -69,8 +67,8 @@ class DjangoRequestExtractor:
         headers = self.headers()
 
         # Extract traceparent and tracestate headers
-        traceparent = headers.get("traceparent")
-        tracestate = headers.get("tracestate")
+        traceparent = headers.get("Traceparent")
+        tracestate = headers.get("Tracestate")
 
         # Extract the distinct_id from tracestate
         distinct_id = None
@@ -82,11 +80,37 @@ class DjangoRequestExtractor:
                 distinct_id = match.group(1)
 
         return {
+            **self.user(),
             "distinct_id": distinct_id,
             "ip": headers.get("X-Forwarded-For"),
             "user_agent": headers.get("User-Agent"),
             "traceparent": traceparent,
+            "$request_path": self.request.path,
         }
+
+    def user(self):
+        user_data: dict[str, str] = {}
+
+        user = getattr(self.request, "user", None)
+
+        if user is None or not user.is_authenticated:
+            return user_data
+
+        try:
+            user_id = str(user.pk)
+            if user_id:
+                user_data.setdefault("$user_id", user_id)
+        except Exception:
+            pass
+
+        try:
+            email = str(user.email)
+            if email:
+                user_data.setdefault("email", email)
+        except Exception:
+            pass
+
+        return user_data
 
     def headers(self):
         # type: () -> Dict[str, str]

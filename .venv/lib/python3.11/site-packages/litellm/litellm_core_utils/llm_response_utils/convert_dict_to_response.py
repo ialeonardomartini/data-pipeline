@@ -255,7 +255,9 @@ def _parse_content_for_reasoning(
     if not message_text:
         return None, message_text
 
-    reasoning_match = re.match(r"<think>(.*?)</think>(.*)", message_text, re.DOTALL)
+    reasoning_match = re.match(
+        r"<(?:think|thinking)>(.*?)</(?:think|thinking)>(.*)", message_text, re.DOTALL
+    )
 
     if reasoning_match:
         return reasoning_match.group(1), reasoning_match.group(2)
@@ -530,6 +532,12 @@ def convert_to_model_response_object(  # noqa: PLR0915
                 if finish_reason is None:
                     # gpt-4 vision can return 'finish_reason' or 'finish_details'
                     finish_reason = choice.get("finish_details") or "stop"
+                if (
+                    finish_reason == "stop"
+                    and message.tool_calls
+                    and len(message.tool_calls) > 0
+                ):
+                    finish_reason = "tool_calls"
                 logprobs = choice.get("logprobs", None)
                 enhancements = choice.get("enhancements", None)
                 choice = Choices(

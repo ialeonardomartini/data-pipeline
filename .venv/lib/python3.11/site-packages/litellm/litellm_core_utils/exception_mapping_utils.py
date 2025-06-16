@@ -274,7 +274,15 @@ def exception_type(  # type: ignore  # noqa: PLR0915
                         + "Exception"
                     )
 
-                if (
+                if "429" in error_str:
+                    exception_mapping_worked = True
+                    raise RateLimitError(
+                        message=f"RateLimitError: {exception_provider} - {message}",
+                        model=model,
+                        llm_provider=custom_llm_provider,
+                        response=getattr(original_exception, "response", None),
+                    )
+                elif (
                     "This model's maximum context length is" in error_str
                     or "string too long. Expected a string with maximum length"
                     in error_str
@@ -309,11 +317,18 @@ def exception_type(  # type: ignore  # noqa: PLR0915
                         litellm_debug_info=extra_information,
                     )
                 elif (
-                    "invalid_request_error" in error_str
-                    and "content_policy_violation" in error_str
-                ) or (
-                    "Invalid prompt" in error_str
-                    and "violating our usage policy" in error_str
+                    (
+                        "invalid_request_error" in error_str
+                        and "content_policy_violation" in error_str
+                    )
+                    or (
+                        "Invalid prompt" in error_str
+                        and "violating our usage policy" in error_str
+                    )
+                    or (
+                        "request was rejected as a result of the safety system"
+                        in error_str.lower()
+                    )
                 ):
                     exception_mapping_worked = True
                     raise ContentPolicyViolationError(

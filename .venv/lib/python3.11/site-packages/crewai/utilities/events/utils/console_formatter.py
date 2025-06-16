@@ -17,6 +17,8 @@ class ConsoleFormatter:
     current_lite_agent_branch: Optional[Tree] = None
     tool_usage_counts: Dict[str, int] = {}
     current_reasoning_branch: Optional[Tree] = None  # Track reasoning status
+    _live_paused: bool = False
+    current_llm_tool_tree: Optional[Tree] = None
 
     def __init__(self, verbose: bool = False):
         self.console = Console(width=None)
@@ -117,6 +119,19 @@ class ConsoleFormatter:
 
         # Finally, pass through to the regular Console.print implementation
         self.console.print(*args, **kwargs)
+
+    def pause_live_updates(self) -> None:
+        """Pause Live session updates to allow for human input without interference."""
+        if not self._live_paused:
+            if self._live:
+                self._live.stop()
+                self._live = None
+            self._live_paused = True
+
+    def resume_live_updates(self) -> None:
+        """Resume Live session updates after human input is complete."""
+        if self._live_paused:
+            self._live_paused = False
 
     def print_panel(
         self, content: Text, title: str, style: str = "blue", is_flow: bool = False
@@ -425,6 +440,51 @@ class ConsoleFormatter:
         self.print(flow_tree)
         self.print()
         return method_branch
+
+    def get_llm_tree(self, tool_name: str):
+        text = Text()
+        text.append(f"🔧 Using {tool_name} from LLM available_function", style="yellow")
+
+        tree = self.current_flow_tree or self.current_crew_tree
+
+        if tree:
+            tree.add(text)
+
+        return tree or Tree(text)
+
+    def handle_llm_tool_usage_started(
+        self,
+        tool_name: str,
+    ):
+        tree = self.get_llm_tree(tool_name)
+        self.add_tree_node(tree, "🔄 Tool Usage Started", "green")
+        self.print(tree)
+        self.print()
+        return tree
+
+    def handle_llm_tool_usage_finished(
+        self,
+        tool_name: str,
+    ):
+        tree = self.get_llm_tree(tool_name)
+        self.add_tree_node(tree, "✅ Tool Usage Completed", "green")
+        self.print(tree)
+        self.print()
+
+    def handle_llm_tool_usage_error(
+        self,
+        tool_name: str,
+        error: str,
+    ):
+        tree = self.get_llm_tree(tool_name)
+        self.add_tree_node(tree, "❌ Tool Usage Failed", "red")
+        self.print(tree)
+        self.print()
+
+        error_content = self.create_status_content(
+            "Tool Usage Failed", tool_name, "red", Error=error
+        )
+        self.print_panel(error_content, "Tool Error", "red")
 
     def handle_tool_usage_started(
         self,
